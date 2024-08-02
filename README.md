@@ -1,4 +1,4 @@
-# Parrot: The Fluent LLM Evaluation Framework
+# Parrot: A Fluent LLM Evaluation Framework
 
 ## Getting Started
 
