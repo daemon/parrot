@@ -229,16 +229,20 @@ class HFInferenceEndpointsLLM(LLM):
 class Evaluator(LLM):
     """
     A class for evaluating the performance of an LLM on a set of tasks driven by another LLM as a judge.
+    Once the evaluator context is entered, the system and prefix messages are made immutable, thus preventing
+    unintentional changes at evaluation time. Evaluators are also one-time use: once an evaluator has
+    finished evaluating, its context cannot be reentered.
     """
     def __init__(self, llm: LLM):
         self.llm = llm
         self.mutable = True
         self._system_message = ''
         self._prefix_message = ''
-        self.tasks = []
+        self.tasks: List['Task'] = []
 
-    def add_task(self, task: 'Task'):
+    def add_task(self, task: 'Task') -> 'Evaluator':
         self.tasks.append(task)
+        return self
 
     @property
     def system_message(self) -> str:
