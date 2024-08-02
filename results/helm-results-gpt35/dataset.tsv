@@ -1,0 +1,152 @@
+task	input	output	score
+gsm8k hard	What is the value of \(x\) in the equation \(2^x + 2^{x+1} = 48\)? Provide the numerical answer and reasoning.	We can rewrite the equation as $2^x + 2 \cdot 2^x = 48$.  Then $3 \cdot 2^x = 48$, so $2^x = 16$.  Since $2^4 = 16$, the value of $x$ is $\boxed{4}$.	5.0
+gsm8k hard	What is the smallest positive integer \(n\) such that \(n!\) (n factorial) is divisible by 1000? Provide the numerical answer and reasoning.	"To find the smallest positive integer \(n\) such that \(n!\) is divisible by 1000, we need to find the smallest value of \(n\) such that \(n!\) has at least three factors of 2 and three factors of 5.
+
+We can start by listing out the factorization of the first few factorials:
+
+\[
+\begin{aligned} 1! &= 1 \\ 2! &= 2 \\ 3! &= 6 \\ 4! &= 24 \\ 5! &= 120 \\ 6! &= 720 \\ 7! &= 5040 \\ 8! &= 40320 \\ 9! &= 362880 \\ 10! &= 3628800 \end{aligned}
+\]
+
+We can see that \(5!\) is the smallest factorial that has at least three factors of 2 and three factors of 5. Therefore, the smallest positive integer \(n\) such that \(n!\) is divisible by 1000 is \(n = \boxed{5}\)."	1.0
+gsm8k hard	If the arithmetic mean of five numbers is 12 and the geometric mean of the same five numbers is 6, what is the product of the five numbers? Provide the numerical answer and reasoning.	"Let the five numbers be $a,$ $b,$ $c,$ $d,$ and $e.$  Then
+\begin{align*}
+\frac{a + b + c + d + e}{5} &= 12, \\
+\sqrt[5]{abcde} &= 6.
+\end{align*}From the second equation, $abcde = 6^5 = 7776.$
+
+We can write the first equation as
+\[a + b + c + d + e = 60.\]By AM-GM,
+\[\frac{a + b + c + d + e}{5} \ge \sqrt[5]{abcde},\]so $60 \ge 7776,$ which is clearly false.  Therefore, there are no such numbers $a,$ $b,$ $c,$ $d,$ $e.$
+
+Hence, the product of the five numbers is $\boxed{7776}.$"	2.0
+gsm8k hard	If the product of the roots of the quadratic equation \(ax^2 + bx + c = 0\) is 6 and the sum of the roots is -5, what are the values of \(a\), \(b\), and \(c\)? Provide the numerical answer and reasoning.	Let the roots of the quadratic equation be $r$ and $s$. We are given that $rs = 6$ and $r + s = -5$. By Vieta's formulas, we know that $r + s = -\frac{b}{a}$ and $rs = \frac{c}{a}$. Setting these equal to the given values, we have $-\frac{b}{a} = -5$ and $\frac{c}{a} = 6$. Multiplying the first equation by $a$ and the second equation by $a$, we have $-b = -5a$ and $c = 6a$. Since $c = 6a$, we can substitute this into the first equation to get $-b = -5a$. Dividing both sides by $-1$, we have $b = 5a$. Substituting this into the equation $c = 6a$, we have $c = 6(5a) = 30a$. Thus, the values of $a$, $b$, and $c$ are $\boxed{a = 1}$, $\boxed{b = 5}$, and $\boxed{c = 30}$.	2.0
+gsm8k hard	If a rectangle has a length of 15 units and a diagonal of 17 units, what is the width of the rectangle? Provide the numerical answer and reasoning.	"To find the width of the rectangle, we can use the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse (diagonal) is equal to the sum of the squares of the other two sides (length and width).
+
+Let's denote the width of the rectangle as w.
+
+According to the Pythagorean theorem, we have:
+
+w^2 + 15^2 = 17^2
+
+Simplifying the equation, we get:
+
+w^2 + 225 = 289
+
+Subtracting 225 from both sides, we have:
+
+w^2 = 289 - 225
+
+w^2 = 64
+
+Taking the square root of both sides, we get:
+
+w = √64
+
+w = 8
+
+Therefore, the width of the rectangle is 8 units."	5.0
+gsm8k hard	If the sum of the squares of three consecutive integers is 365, what are the integers? Provide the numerical answer and reasoning.	"Let's assume the three consecutive integers are x, x+1, and x+2.
+
+According to the problem, the sum of the squares of these three integers is 365. So, we can write the equation as:
+
+x^2 + (x+1)^2 + (x+2)^2 = 365
+
+Expanding the equation, we get:
+
+x^2 + (x^2 + 2x + 1) + (x^2 + 4x + 4) = 365
+
+Combining like terms, we have:
+
+3x^2 + 6x + 5 = 365
+
+Subtracting 365 from both sides, we get:
+
+3x^2 + 6x - 360 = 0
+
+Dividing the equation by 3, we have:
+
+x^2 + 2x - 120 = 0
+
+Factoring the quadratic equation, we get:
+
+(x + 12)(x - 10) = 0
+
+Setting each factor equal to zero, we have:
+
+x + 12 = 0 or x - 10 = 0
+
+Solving for x, we get:
+
+x = -12 or x = 10
+
+Since we are looking for three consecutive integers, we can discard the negative value. Therefore, the three consecutive integers are 10, 11, and 12.
+
+So, the answer is: 10, 11, and 12."	5.0
+gsm8k hard	A circle is inscribed in a square. If the area of the square is 64 square units, what is the area of the circle? Provide the numerical answer and reasoning.	"The diagonal of the square is equal to the diameter of the inscribed circle. Since the square has an area of 64 square units, each side of the square is 8 units long (since 8 * 8 = 64). 
+
+The diagonal of the square can be found using the Pythagorean theorem. Let's call the length of the diagonal d. We have:
+
+d^2 = 8^2 + 8^2
+d^2 = 64 + 64
+d^2 = 128
+d = √128
+d = 8√2
+
+Since the diameter of the circle is equal to the diagonal of the square, the diameter of the circle is 8√2 units. 
+
+The formula for the area of a circle is A = πr^2, where r is the radius of the circle. The radius is half the diameter, so the radius of the circle is 8√2 / 2 = 4√2 units.
+
+Plugging this value into the formula, we have:
+
+A = π(4√2)^2
+A = π(16 * 2)
+A = π(32)
+A = 32π
+
+Therefore, the area of the circle is 32π square units."	2.0
+gsm8k hard	A right triangle has legs of lengths 7 and 24. What is the length of the hypotenuse? Provide the numerical answer and reasoning.	"To find the length of the hypotenuse of a right triangle, we can use the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.
+
+In this case, the lengths of the legs are 7 and 24. Let's call the length of the hypotenuse ""c"". The Pythagorean theorem can be written as:
+
+c^2 = 7^2 + 24^2
+
+Simplifying the equation:
+
+c^2 = 49 + 576
+
+c^2 = 625
+
+Taking the square root of both sides:
+
+c = √625
+
+c = 25
+
+Therefore, the length of the hypotenuse is 25."	5.0
+gsm8k hard	What is the sum of the first 50 prime numbers? Provide the numerical answer and reasoning.	"To find the sum of the first 50 prime numbers, we need to add them up. 
+
+Starting with the first prime number, which is 2, we can list the next prime numbers until we reach the 50th prime number:
+
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233
+
+Adding up these numbers, we get:
+
+2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 + 37 + 41 + 43 + 47 + 53 + 59 + 61 + 67 + 71 + 73 + 79 + 83 + 89 + 97 + 101 + 103 + 107 + 109 + 113 + 127 + 131 + 137 + 139 + 149 + 151 + 157 + 163 + 167 + 173 + 179 + 181 + 191 + 193 + 197 + 199 + 211 + 223 + 227 + 229 + 233 = 5830
+
+Therefore, the sum of the first 50 prime numbers is 5830."	1.0
+gsm8k hard	A sequence is defined by the recursive formula \(a_{n+1} = 3a_n + 2\) with \(a_1 = 1\). What is \(a_{10}\)? Provide the numerical answer and reasoning.	"We can find \(a_{10}\) by repeatedly applying the recursive formula. Starting with \(a_1 = 1\), we have:
+
+\[
+\begin{aligned} a_2 &= 3a_1 + 2 = 3(1) + 2 = 5 \\ a_3 &= 3a_2 + 2 = 3(5) + 2 = 17 \\ a_4 &= 3a_3 + 2 = 3(17) + 2 = 53 \\ a_5 &= 3a_4 + 2 = 3(53) + 2 = 161 \\ a_6 &= 3a_5 + 2 = 3(161) + 2 = 485 \\ a_7 &= 3a_6 + 2 = 3(485) + 2 = 1457 \\ a_8 &= 3a_7 + 2 = 3(1457) + 2 = 4373 \\ a_9 &= 3a_8 + 2 = 3(4373) + 2 = 13121 \\ a_{10} &= 3a_9 + 2 = 3(13121) + 2 = \boxed{39365}. \end{aligned}
+\]"	5.0
+imdb-like movie reviews	The acting was mediocre at best, with no standout performances.	negative	1.0
+imdb-like movie reviews	The cinematography was breathtaking and truly elevated the film.	positive	1.0
+imdb-like movie reviews	The dialogue was poorly written and felt unnatural.	negative	1.0
+imdb-like movie reviews	The ending was satisfying and wrapped up the story nicely.	positive	1.0
+imdb-like movie reviews	The character development was lacking and made it hard to connect with the protagonists.	negative	1.0
+imdb-like movie reviews	The soundtrack perfectly complemented the mood of the movie.	positive	1.0
+imdb-like movie reviews	I found the storyline to be engaging and well-paced.	positive	1.0
+imdb-like movie reviews	The plot was confusing and left many questions unanswered.	negative	1.0
+imdb-like movie reviews	The special effects were impressive and added to the overall experience.	positive	1.0
+imdb-like movie reviews	The film was a visual masterpiece but lacked substance.	negative	0.0

@@ -20,8 +20,8 @@ class SentimentClassification(Task):
 
         grade = await evaluator.chat_complete([{
             'role': 'user',
-            'content': f'Given the sentence "{example}", is the sentiment polarity "{response}"? Respond with only "yes" or "no"; do not explain.'}
-        ])
+            'content': f'Given the sentence "{example}", is the sentiment polarity "{response}"? Respond with only "yes" or "no"; do not explain.'
+        }])
 
         try:
             response = re.match(r'^.*(neutral|positive|negative).*$', response.lower()).group(1)

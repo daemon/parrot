@@ -1,0 +1,8 @@
+{
+    "gsm8k hard": {
+        "mos": 1.4
+    },
+    "imdb-like movie reviews": {
+        "accuracy": 0.8
+    }
+}

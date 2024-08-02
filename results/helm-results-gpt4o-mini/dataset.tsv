@@ -1,0 +1,441 @@
+task	input	output	score
+gsm8k hard	If \(x^2 + 6x + 9 = 0\), what is the value of \(x\)? Provide the numerical answer and reasoning.	"To solve the equation \(x^2 + 6x + 9 = 0\), we can start by recognizing that this is a quadratic equation. We can factor it.
+
+The expression \(x^2 + 6x + 9\) can be factored as follows:
+
+\[
+x^2 + 6x + 9 = (x + 3)(x + 3) = (x + 3)^2
+\]
+
+Now, we set the factored form equal to zero:
+
+\[
+(x + 3)^2 = 0
+\]
+
+To solve for \(x\), we take the square root of both sides:
+
+\[
+x + 3 = 0
+\]
+
+Now, we isolate \(x\):
+
+\[
+x = -3
+\]
+
+Thus, the value of \(x\) is 
+
+\[
+\boxed{-3}
+\] 
+
+To verify, we can substitute \(x = -3\) back into the original equation:
+
+\[
+(-3)^2 + 6(-3) + 9 = 9 - 18 + 9 = 0
+\]
+
+Since the left-hand side equals zero, our solution is confirmed. The value of \(x\) is indeed 
+
+\[
+\boxed{-3}
+\]"	5.0
+gsm8k hard	What is the least common multiple (LCM) of 24, 36, and 54? Provide the numerical answer and reasoning.	"To find the least common multiple (LCM) of the numbers 24, 36, and 54, we can use the prime factorization method.
+
+1. **Prime Factorization**:
+   - **24**: 
+     \[
+     24 = 2^3 \times 3^1
+     \]
+   - **36**: 
+     \[
+     36 = 2^2 \times 3^2
+     \]
+   - **54**: 
+     \[
+     54 = 2^1 \times 3^3
+     \]
+
+2. **Identify the highest powers of each prime factor**:
+   - For the prime factor \(2\):
+     - The highest power is \(2^3\) (from 24).
+   - For the prime factor \(3\):
+     - The highest power is \(3^3\) (from 54).
+
+3. **Calculate the LCM**:
+   The LCM is found by multiplying the highest powers of all prime factors:
+   \[
+   \text{LCM} = 2^3 \times 3^3
+   \]
+
+4. **Calculate the values**:
+   - Calculate \(2^3\):
+     \[
+     2^3 = 8
+     \]
+   - Calculate \(3^3\):
+     \[
+     3^3 = 27
+     \]
+   - Now multiply these results:
+     \[
+     \text{LCM} = 8 \times 27
+     \]
+
+5. **Final multiplication**:
+   \[
+   8 \times 27 = 216
+   \]
+
+Thus, the least common multiple of 24, 36, and 54 is \(\boxed{216}\)."	5.0
+gsm8k hard	If the probability of an event occurring is 0.2, what are the odds in favor of the event occurring? Provide the numerical answer and reasoning.	"To find the odds in favor of an event occurring, we can use the probability of the event and the probability of the event not occurring.
+
+Given:
+- Probability of the event occurring (P) = 0.2
+- Probability of the event not occurring (Q) = 1 - P = 1 - 0.2 = 0.8
+
+The odds in favor of the event occurring are calculated as the ratio of the probability of the event occurring to the probability of the event not occurring:
+
+\[
+\text{Odds in favor} = \frac{P}{Q} = \frac{0.2}{0.8}
+\]
+
+Now, simplifying this fraction:
+
+\[
+\frac{0.2}{0.8} = \frac{2}{8} = \frac{1}{4}
+\]
+
+Thus, the odds in favor of the event occurring are **1:4**. 
+
+This means that for every 1 time the event occurs, it is expected not to occur 4 times."	5.0
+gsm8k hard	What is the product of the roots of the polynomial \(2x^3 - 4x^2 + 3x - 6 = 0\)? Provide the numerical answer and reasoning.	"To find the product of the roots of the polynomial \(2x^3 - 4x^2 + 3x - 6 = 0\), we can use Vieta's formulas. For a cubic polynomial of the form 
+
+\[
+ax^3 + bx^2 + cx + d = 0,
+\]
+
+the product of the roots \(r_1, r_2, r_3\) is given by 
+
+\[
+\frac{-d}{a}.
+\]
+
+In our polynomial, we have:
+
+- \(a = 2\)
+- \(b = -4\)
+- \(c = 3\)
+- \(d = -6\)
+
+Now, we can apply Vieta's formula for the product of the roots:
+
+\[
+r_1 r_2 r_3 = \frac{-d}{a} = \frac{-(-6)}{2} = \frac{6}{2} = 3.
+\]
+
+Thus, the product of the roots of the polynomial \(2x^3 - 4x^2 + 3x - 6 = 0\) is 
+
+\[
+\boxed{3}.
+\]"	5.0
+gsm8k hard	A right triangle has legs of lengths 7 units and 24 units. What is the length of the hypotenuse? Provide the numerical answer and reasoning.	"To find the length of the hypotenuse of a right triangle with legs of lengths 7 units and 24 units, we can use the Pythagorean theorem. The theorem states that in a right triangle, the square of the length of the hypotenuse \( c \) is equal to the sum of the squares of the lengths of the other two sides \( a \) and \( b \):
+
+\[
+c^2 = a^2 + b^2
+\]
+
+In this case, we have:
+
+- \( a = 7 \)
+- \( b = 24 \)
+
+Now, we can calculate \( c^2 \):
+
+\[
+c^2 = 7^2 + 24^2
+\]
+
+Calculating the squares:
+
+\[
+7^2 = 49
+\]
+\[
+24^2 = 576
+\]
+
+Now, add these two results:
+
+\[
+c^2 = 49 + 576 = 625
+\]
+
+To find \( c \), we take the square root of \( c^2 \):
+
+\[
+c = \sqrt{625} = 25
+\]
+
+Thus, the length of the hypotenuse is 
+
+\[
+\boxed{25} \text{ units.}
+\]"	5.0
+gsm8k hard	If the sum of the interior angles of a polygon is 1440 degrees, how many sides does the polygon have? Provide the numerical answer and reasoning.	"To find the number of sides \( n \) of a polygon given that the sum of its interior angles is 1440 degrees, we can use the formula for the sum of the interior angles of a polygon:
+
+\[
+S = (n - 2) \times 180
+\]
+
+where \( S \) is the sum of the interior angles and \( n \) is the number of sides.
+
+Given that \( S = 1440 \), we can set up the equation:
+
+\[
+1440 = (n - 2) \times 180
+\]
+
+To solve for \( n \), we first divide both sides by 180:
+
+\[
+\frac{1440}{180} = n - 2
+\]
+
+Calculating the left side:
+
+\[
+\frac{1440}{180} = 8
+\]
+
+So we have:
+
+\[
+8 = n - 2
+\]
+
+Now, we add 2 to both sides:
+
+\[
+n = 8 + 2 = 10
+\]
+
+Thus, the polygon has \( \boxed{10} \) sides."	5.0
+gsm8k hard	If a rectangle has a length of 15 units and a diagonal of 17 units, what is the width of the rectangle? Provide the numerical answer and reasoning.	"To find the width of the rectangle, we can use the Pythagorean theorem. The theorem states that in a right triangle, the square of the length of the hypotenuse (the diagonal in this case) is equal to the sum of the squares of the lengths of the other two sides (the length and the width of the rectangle).
+
+Let:
+- \( l \) = length of the rectangle = 15 units
+- \( w \) = width of the rectangle
+- \( d \) = diagonal of the rectangle = 17 units
+
+According to the Pythagorean theorem:
+
+\[
+d^2 = l^2 + w^2
+\]
+
+Substituting the known values:
+
+\[
+17^2 = 15^2 + w^2
+\]
+
+Calculating the squares:
+
+\[
+289 = 225 + w^2
+\]
+
+Now, we can isolate \( w^2 \):
+
+\[
+w^2 = 289 - 225
+\]
+\[
+w^2 = 64
+\]
+
+Taking the square root of both sides gives:
+
+\[
+w = \sqrt{64} = 8
+\]
+
+Thus, the width of the rectangle is \( \boxed{8} \) units."	5.0
+gsm8k hard	What is the sum of the first 50 prime numbers? Provide the numerical answer and reasoning.	"To find the sum of the first 50 prime numbers, we first need to identify what those prime numbers are. The first 50 prime numbers are:
+
+1. 2
+2. 3
+3. 5
+4. 7
+5. 11
+6. 13
+7. 17
+8. 19
+9. 23
+10. 29
+11. 31
+12. 37
+13. 41
+14. 43
+15. 47
+16. 53
+17. 59
+18. 61
+19. 67
+20. 71
+21. 73
+22. 79
+23. 83
+24. 89
+25. 97
+26. 101
+27. 103
+28. 107
+29. 109
+30. 113
+31. 127
+32. 131
+33. 137
+34. 139
+35. 149
+36. 151
+37. 157
+38. 163
+39. 167
+40. 173
+41. 179
+42. 181
+43. 191
+44. 193
+45. 197
+46. 199
+47. 211
+48. 223
+49. 227
+50. 229
+
+Next, we will sum these prime numbers. The sum can be calculated step by step or using a calculator for efficiency. 
+
+Calculating the sum:
+
+\[
+2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 + 37 + 41 + 43 + 47 + 53 + 59 + 61 + 67 + 71 + 73 + 79 + 83 + 89 + 97 + 101 + 103 + 107 + 109 + 113 + 127 + 131 + 137 + 139 + 149 + 151 + 157 + 163 + 167 + 173 + 179 + 181 + 191 + 193 + 197 + 199 + 211 + 223 + 227 + 229
+\]
+
+After performing the addition, we find that the sum of the first 50 prime numbers is:
+
+\[
+\text{Sum} = 1060
+\]
+
+Thus, the sum of the first 50 prime numbers is \( \boxed{1060} \)."	1.0
+gsm8k hard	A cylinder has a volume of 500 cubic units and a height of 10 units. What is the radius of the base of the cylinder? Provide the numerical answer and reasoning.	"To find the radius of the base of the cylinder, we can use the formula for the volume of a cylinder:
+
+\[
+V = \pi r^2 h
+\]
+
+where \( V \) is the volume, \( r \) is the radius of the base, and \( h \) is the height.
+
+Given:
+- Volume \( V = 500 \) cubic units
+- Height \( h = 10 \) units
+
+We can rearrange the formula to solve for the radius \( r \):
+
+\[
+r^2 = \frac{V}{\pi h}
+\]
+
+Substituting the known values into the equation:
+
+\[
+r^2 = \frac{500}{\pi \times 10}
+\]
+
+\[
+r^2 = \frac{500}{10\pi}
+\]
+
+\[
+r^2 = \frac{50}{\pi}
+\]
+
+Now, we take the square root of both sides to find \( r \):
+
+\[
+r = \sqrt{\frac{50}{\pi}}
+\]
+
+To get a numerical value, we can approximate \( \pi \) as \( 3.14 \):
+
+\[
+r = \sqrt{\frac{50}{3.14}} \approx \sqrt{15.92} \approx 3.98
+\]
+
+Thus, the radius of the base of the cylinder is approximately:
+
+\[
+\boxed{3.98} \text{ units}
+\]"	5.0
+gsm8k hard	A sequence is defined by the recursive formula \(a_{n+1} = 3a_n + 2\) with \(a_1 = 1\). What is \(a_{10}\)? Provide the numerical answer and reasoning.	"To find \(a_{10}\) in the sequence defined by the recursive formula \(a_{n+1} = 3a_n + 2\) with the initial condition \(a_1 = 1\), we can compute the first few terms of the sequence step by step.
+
+1. **Calculate \(a_2\)**:
+   \[
+   a_2 = 3a_1 + 2 = 3 \cdot 1 + 2 = 3 + 2 = 5
+   \]
+
+2. **Calculate \(a_3\)**:
+   \[
+   a_3 = 3a_2 + 2 = 3 \cdot 5 + 2 = 15 + 2 = 17
+   \]
+
+3. **Calculate \(a_4\)**:
+   \[
+   a_4 = 3a_3 + 2 = 3 \cdot 17 + 2 = 51 + 2 = 53
+   \]
+
+4. **Calculate \(a_5\)**:
+   \[
+   a_5 = 3a_4 + 2 = 3 \cdot 53 + 2 = 159 + 2 = 161
+   \]
+
+5. **Calculate \(a_6\)**:
+   \[
+   a_6 = 3a_5 + 2 = 3 \cdot 161 + 2 = 483 + 2 = 485
+   \]
+
+6. **Calculate \(a_7\)**:
+   \[
+   a_7 = 3a_6 + 2 = 3 \cdot 485 + 2 = 1455 + 2 = 1457
+   \]
+
+7. **Calculate \(a_8\)**:
+   \[
+   a_8 = 3a_7 + 2 = 3 \cdot 1457 + 2 = 4365 + 2 = 4367
+   \]
+
+8. **Calculate \(a_9\)**:
+   \[
+   a_9 = 3a_8 + 2 = 3 \cdot 4367 + 2 = 13101 + 2 = 13103
+   \]
+
+9. **Calculate \(a_{10}\)**:
+   \[
+   a_{10} = 3a_9 + 2 = 3 \cdot 13103 + 2 = 39309 + 2 = 39311
+   \]
+
+Thus, the value of \(a_{10}\) is \(\boxed{39311}\)."	5.0
+imdb-like movie reviews	The director's vision was clearly executed and impactful.	positive	1.0
+imdb-like movie reviews	The pacing was slow and made the movie feel longer than it was.	negative	1.0
+imdb-like movie reviews	The dialogue was cheesy and unrealistic.	negative	1.0
+imdb-like movie reviews	I was thoroughly entertained from start to finish.	positive	1.0
+imdb-like movie reviews	The plot was predictable and lacked originality.	negative	1.0
+imdb-like movie reviews	The special effects were subpar and distracting.	negative	1.0
+imdb-like movie reviews	The character development was impressive and engaging.	positive	1.0
+imdb-like movie reviews	The cinematography was breathtaking and truly elevated the film.	positive	1.0
+imdb-like movie reviews	The acting was decent, but nothing to write home about.	neutral	1.0
+imdb-like movie reviews	The soundtrack perfectly complemented the emotional scenes.	positive	1.0

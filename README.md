@@ -69,7 +69,7 @@ async def amain():
         # Run the evaluation
         results = await evaluator.evaluate(gpt_35_llm)
 
-    # evaluator.add_task(parrot.tasks.QuestionAnswering())  # Error! Immutable evaluator
+    # evaluator.add_task(parrot.tasks.QuestionAnswering())  # Error! Immutable evaluator for safety reasons
     print(results)
 
     results.save(args.output_folder)
