@@ -2,7 +2,7 @@
 
 As evaluated by GPT-4o:
 
-| Model       | Proxy IMDB | Proxy GSM8K | Truth IMDB | Truth GSM8K |
+| Model       | Proxy IMDB (Parrot) | Proxy GSM8K (Parrot) | Truth IMDB (HELM) | Truth GSM8K (HELM) |
 |-------------|------| ---- |-----------|-------------|
 | GPT-4o-mini | 100  | 4.6  | -         | 84.3        |
 | Mistral 0.3 7B | 90 | 3.6 | 96        | 38.1        |
